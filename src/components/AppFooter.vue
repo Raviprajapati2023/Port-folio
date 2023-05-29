@@ -1,7 +1,7 @@
 <template>
   <footer class="mt-32">
     <div class="sm:px-8">
-      <div class="mx-auto max-w-7xl lg:px-8">
+      <div class="mx-auto max-w-7xl p-0 lg:px-8">
         <div
           class="border-t border-zinc-100 pb-16 pt-10 dark:border-zinc-700/40"
         >
