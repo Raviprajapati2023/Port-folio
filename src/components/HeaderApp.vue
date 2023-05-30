@@ -1,5 +1,5 @@
 <template>
-  <header class="relative z-50 flex flex-col sticky">
+  <header class="relative z-50 flex flex-col">
     <div class="order-last mt-[calc(theme(spacing.16)-theme(spacing.3))]"></div>
     <div class="sm:px-8 top-0 order-last -mb-3 pt-3">
       <div class="mx-auto max-w-7xl lg:px-8">
@@ -109,7 +109,7 @@
                       </ul>
                     </nav>
                   </div>
-                  <nav class="md:block avbar-container hide-below-767">
+                  <nav class="md:block avbar-container fixed hide-below-767">
                     <ul
                       class="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10"
                     >
@@ -128,7 +128,7 @@
                     <button
                       type="button"
                       aria-label="Toggle dark mode"
-                      class="group rounded-full bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20"
+                      class="group lg:fixed rounded-full bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20"
                     >
                       <svg
                         viewBox="0 0 24 24"
