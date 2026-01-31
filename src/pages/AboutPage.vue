@@ -18,7 +18,7 @@
                     data-nimg="1"
                     class="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
                     sizes="(min-width: 1024px) 32rem, 20rem"
-                    src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fportrait.79754e9e.jpg&amp;w=3840&amp;q=75"
+                    src="https://images.unsplash.com/photo-1554224154-22dec7ec8818?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZW1wbG95ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60"
                     style="color: transparent"
                   />
                 </div>

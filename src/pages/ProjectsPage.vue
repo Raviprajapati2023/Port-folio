@@ -35,7 +35,7 @@
                       decoding="async"
                       data-nimg="1"
                       class="h-8 w-8"
-                      src="/_next/static/media/planetaria.ecd81ade.svg"
+                      src="https://images.unsplash.com/photo-1554224154-22dec7ec8818?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZW1wbG95ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60"
                       style="color: transparent"
                     />
                   </div>
@@ -85,7 +85,7 @@
                       decoding="async"
                       data-nimg="1"
                       class="h-8 w-8"
-                      src="/_next/static/media/animaginary.8d221e52.svg"
+                      src="https://images.unsplash.com/photo-1554224154-22dec7ec8818?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZW1wbG95ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60"
                       style="color: transparent"
                     />
                   </div>
@@ -135,7 +135,7 @@
                       decoding="async"
                       data-nimg="1"
                       class="h-8 w-8"
-                      src="/_next/static/media/helio-stream.2ac8d11f.svg"
+                      src="https://images.unsplash.com/photo-1554224154-22dec7ec8818?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZW1wbG95ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60"
                       style="color: transparent"
                     />
                   </div>
@@ -185,7 +185,7 @@
                       decoding="async"
                       data-nimg="1"
                       class="h-8 w-8"
-                      src="/_next/static/media/cosmos.c70b0295.svg"
+                      src="https://images.unsplash.com/photo-1554224154-22dec7ec8818?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZW1wbG95ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60"
                       style="color: transparent"
                     />
                   </div>
@@ -235,7 +235,7 @@
                       decoding="async"
                       data-nimg="1"
                       class="h-8 w-8"
-                      src="/_next/static/media/open-shuttle.db0327e4.svg"
+                      src="https://images.unsplash.com/photo-1554224154-22dec7ec8818?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZW1wbG95ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60"
                       style="color: transparent"
                     />
                   </div>

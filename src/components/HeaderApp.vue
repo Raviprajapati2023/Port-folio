@@ -24,7 +24,7 @@
                     class="rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 h-16 w-16"
                     style="color: transparent"
                     sizes="4rem"
-                    src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.51a13c67.jpg&amp;w=3840&amp;q=75"
+                    src="https://images.unsplash.com/photo-1554224154-22dec7ec8818?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZW1wbG95ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60"
                 /></a>
               </div>
             </div>
@@ -39,6 +39,7 @@
             <div class="mx-auto max-w-2xl lg:max-w-5xl">
               <div class="relative flex gap-4">
                 <div class="flex flex-1"></div>
+
                 <div class="flex md:justify-center">
                   <div class="md:hidden">
                     <button
@@ -169,7 +170,7 @@
   </header>
 </template>
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted, onUnmounted, watch } from "vue";
 const openDialog = ref(false);
 const closeMenu = () => {
   openDialog.value = false;
@@ -195,11 +196,34 @@ const pages = ref([
     name: "Uses",
   },
 ]);
+
+const shouldHideNavbar = ref(false);
+
+const handleScroll = () => {
+  shouldHideNavbar.value = window.scrollY > 0; // Adjust the scroll position threshold as needed
+};
+
+onMounted(() => {
+  window.addEventListener("scroll", handleScroll);
+});
+
+onUnmounted(() => {
+  window.removeEventListener("scroll", handleScroll);
+});
+
+watch(shouldHideNavbar, (value) => {
+  const navbar = document.querySelector(".navbar-container");
+  navbar.classList.toggle("hide-navbar", value);
+});
 </script>
 <style scoped>
 @media (max-width: 767px) {
   .hide-below-767 {
     display: none;
   }
+}
+
+.hide-navbar {
+  display: none;
 }
 </style>

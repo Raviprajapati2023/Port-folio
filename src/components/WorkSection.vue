@@ -85,28 +85,28 @@ const workExp = [
     role: "CEO",
     fromDate: "2019",
     endDate: "Present",
-    img: "",
+    img: `https://images.unsplash.com/photo-1554224154-22dec7ec8818?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZW1wbG95ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60`,
   },
   {
     name: "Airbnb",
     role: " Product Designer",
     fromDate: "2014",
     endDate: "2019",
-    img: "",
+    img: `https://images.unsplash.com/photo-1554224154-22dec7ec8818?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZW1wbG95ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60`,
   },
   {
     name: "Facebook",
     role: " iOS Software Engineer",
     fromDate: "2011",
     endDate: "2014",
-    img: "",
+    img: `https://images.unsplash.com/photo-1554224154-22dec7ec8818?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZW1wbG95ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60`,
   },
   {
     name: " Starbucks",
     role: " Shift Supervisor",
     fromDate: "2009",
     endDate: "2011",
-    img: "",
+    img: `https://images.unsplash.com/photo-1554224154-22dec7ec8818?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZW1wbG95ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60`,
   },
 ];
 </script>
